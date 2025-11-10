@@ -1,17 +1,17 @@
-body {}
-
 .container {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .container_small {
-    width: 1000px;
+  width: 1000px;
 }
+
 .container_midle {
-    width: 1052px;
+  width: 1052px;
 }
+
 .container_big {
-    width: 1100px;
+  width: 1100px;
 }
 
 header {
@@ -24,8 +24,6 @@ header {
   align-items: center;
 }
 
-
-
 .menu {
   list-style: circle;
   padding: 0;
@@ -33,7 +31,7 @@ header {
   gap: 32px;
 }
 
-.menu span {
+.menu-main {
   list-style: none;
 }
 
@@ -47,8 +45,8 @@ address {
 }
 
 header .logo {
-    width: 148px;
-    height: 105px;
+  width: 148px;
+  height: 105px;
 }
 
 ul {
@@ -59,15 +57,8 @@ a {
   color: black;
 }
 
-nav{
- 
-}
-
-
 main {
   display: grid;
-  grid-template-rows: ;
-    
 }
 
 .cover {
@@ -93,9 +84,9 @@ h1 {
 }
 
 h1 span {
-   display: flex;
-   margin-right: 50px; 
-}
+  display: flex;
+  margin-right: 50px;
+  }
 
 .word_beginning {
   justify-content: flex-start;
@@ -109,33 +100,27 @@ h1 span {
   justify-content: flex-end;
 }
 
-
 .description {
-   display: flex;
-   justify-content: space-between;
-   margin-top: 126px;
-   margin-bottom: 50px;
-   /*margin-left: 50px;
-   margin-right: 50px;*/
-   border: 1px; 
-   border-color: antiquewhite;
-   color: white;
-   font-size: 26px;
-   text-transform: uppercase;
-   padding-left: 50px;
-   font-family: Raleway, Arial, sans-serif;
-}
-
+  display: flex;
+  justify-content: space-between;
+  margin-top: 126px;
+  margin-bottom: 50px;
+  border: 1px; 
+  border-color: antiquewhite;
+  color: white;
+  font-size: 26px;
+  text-transform: uppercase;
+  padding-left: 50px;
+  font-family: Raleway, Arial, sans-serif;
+  }
+  
 .button {
-    width: 256px;
-    height: 51px;
-    font-size: 26px;
-    text-transform: uppercase;
-    /*margin-top: 656px;
-    margin-left: 794px;
-    border: 1px;*/
-    color: white;
-    background-color: rgba(255, 255, 255, 0); border-color: antiquewhite; outline: none;
+  width: 256px;
+  height: 51px;
+  font-size: 26px;
+  text-transform: uppercase;
+  color: white;
+  background-color: rgba(255, 255, 255, 0); border-color: antiquewhite; outline: none;
 }
 
 .lots {
@@ -150,7 +135,7 @@ h1 span {
 }
 
 .lot-list div {
-   font-family: Raleway, Arial, sans-serif;
+  font-family: Raleway, Arial, sans-serif;
 }
 
 .cards {
@@ -164,22 +149,21 @@ h1 span {
 
 .card-1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/card-lot-01.jpg");
-
 }
+
 .card-2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/card-lot-02.jpg");
-
 }
+
 .card-3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/card-lot-03.jpg");
-
 }
 
 .lot-list img {
   width: 334px;
   height: 596px;
   object-fit: cover;
-}  
+}
 
 .lot-list article {
   display: flex;
@@ -199,7 +183,6 @@ h2 {
   font-size: 40px;
 }
 
-
 h3 {
   text-decoration: underline;
   margin-top: 48px;
@@ -214,8 +197,6 @@ article p {
   margin-bottom: 40px;
   font-size: 20px;
 }
-
-
 
 .see-more {
   margin-left: 40px;
@@ -236,10 +217,8 @@ article p {
   grid-template-columns: repeat(2, 1fr);
 }
 
-
-.column div div{
+.column div div {
   display: flex;
-
 }
 
 .column h2 {
@@ -266,13 +245,11 @@ article p {
   border-radius: 50%;
   justify-content: center;
   align-items: center;
-  
 }
 
 .column .logo {
   width: 148px;
   height: 114px;
- 
 }
 
 footer {
@@ -280,7 +257,6 @@ footer {
   justify-content: space-between;
   height: 180px;
   margin-top: 80px;
-
 }
 
 .menu-list {
@@ -288,10 +264,10 @@ footer {
 }
 
 .social-media {
-    display: flex;
-    justify-content: space-between;
-    width: 240px;
-    height: 48px;
-    margin-top: 1px;
-    gap: 48px;
+  display: flex;
+  justify-content: space-between;
+  width: 240px;
+  height: 48px;
+  margin-top: 1px;
+  gap: 48px;
 }
