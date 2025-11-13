@@ -17,8 +17,6 @@
 header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
-  padding-left: 50px;
-  padding-right: 50px;
   padding-top: 92px;
   padding-bottom: 92px;
   align-items: center;
@@ -29,7 +27,6 @@ header {
   padding: 0;
   display: flex;
   gap: 32px;
-  height: 22px;
   font-size: 18px;
   text-wrap: nowrap;
 }
@@ -112,7 +109,7 @@ h1 span {
   margin-bottom: 50px;
   border-color: antiquewhite;
   color: white;
-  font-size: 26px;
+  font-size: 22px;
   text-transform: uppercase;
   font-family: Raleway, Arial, sans-serif;
   }
@@ -125,11 +122,11 @@ h1 span {
 .button {
   width: 256px;
   height: 51px;
-  font-size: 26px;
+  font-size: 22px;
   text-transform: uppercase;
   color: white;
   background-color: rgba(255, 255, 255, 0);
-  border-color: antiquewhite;
+  border-color: white;
   outline: none;
 }
 
@@ -193,6 +190,9 @@ h1 span {
   flex-direction: column;
   justify-content: space-between;
   width: 334px;
+  padding-left: 40px;
+  padding-right: 40px;
+  min-height: 596px;
 }
 
 .lots h2 {
@@ -202,12 +202,6 @@ h1 span {
 
 h2 {
   font-size: 40px;
-}
-
-article {
-  padding-left: 40px;
-  padding-right: 40px;
-  height: 596px;
 }
 
 h3 {
@@ -229,6 +223,7 @@ article p {
   border-radius: 1px;
   padding-left: 40px;
   margin-top: 27px;
+  font-size: 20px;
 }
 
 .about {
@@ -284,6 +279,8 @@ footer {
 .menu-list {
   text-align: center;
   margin-bottom: 128px;
+  font-size: 18px;
+
 }
 
 .social-media {
